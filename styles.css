@@ -87,3 +87,47 @@ h1 {
 #delete-completed-btn:hover {
   background: linear-gradient(90deg, #c0392b 60%, #f9d423 100%);
 }
+
+.footer {
+  margin-top: 32px;
+  padding: 18px 0 8px 0;
+  text-align: center;
+  background: #f4f4f4;
+  border-top: 1px solid #e0e0e0;
+}
+
+.github-link {
+  display: inline-flex;
+  align-items: center;
+  color: #24292e;
+  background: linear-gradient(90deg, #f9d423 0%, #ff4e50 100%);
+  padding: 10px 24px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(255,78,80,0.08);
+  transition: background 0.2s, color 0.2s;
+}
+
+.github-link:hover {
+  background: linear-gradient(90deg, #ff4e50 0%, #f9d423 100%);
+  color: #fff;
+}
+
+@media (max-width: 500px) {
+  .todo-container {
+    max-width: 98vw;
+    padding: 12px;
+    border-radius: 8px;
+  }
+  #new-task {
+    width: 100%;
+    margin-bottom: 8px;
+    margin-right: 0;
+  }
+  #add-btn {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+}
